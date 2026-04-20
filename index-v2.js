@@ -1,3 +1,4 @@
+
 (function () {
   const VALID_IDS = ["SITE_12345", "CLIENT_98765"];
 
@@ -135,7 +136,17 @@
 
     const btn = document.createElement("div");
     btn.className = "cb-btn";
-    btn.innerHTML = "💬";
+    btn.innerHTML = `
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+    <path 
+      d="M8 10H16M8 14H13M21 12C21 16.4183 16.9706 20 12 20C10.7098 20 9.4809 19.7578 8.375 19.3203L4 20L5.09375 16.5C4.39867 15.1904 4 13.6483 4 12C4 7.58172 8.02944 4 13 4C17.9706 4 21 7.58172 21 12Z" 
+      stroke="white" 
+      stroke-width="1.8" 
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+    />
+  </svg>
+`;
 
     const win = document.createElement("div");
     win.className = "cb-window";
