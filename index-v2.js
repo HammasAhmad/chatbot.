@@ -1,4 +1,3 @@
-
 (function () {
   const VALID_IDS = ["SITE_12345", "CLIENT_98765"];
 
