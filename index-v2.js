@@ -142,7 +142,7 @@
       stroke="white" 
       stroke-width="1.8" 
       stroke-linecap="round" 
-      stroke-linejoin="round"
+      stroke-linejoin="round" 
     />
   </svg>
 `;
